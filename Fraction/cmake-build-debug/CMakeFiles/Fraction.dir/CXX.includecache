@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ohrf02/CLionProjects/C++/Fraction/Fraction.cpp
+iostream
+-
+Fraction.h
+C:/Users/ohrf02/CLionProjects/C++/Fraction/Fraction.h
+cmath
+-
+
+C:/Users/ohrf02/CLionProjects/C++/Fraction/Fraction.h
+
+C:/Users/ohrf02/CLionProjects/C++/Fraction/main.cpp
+iostream
+-
+Fraction.h
+C:/Users/ohrf02/CLionProjects/C++/Fraction/Fraction.h
+
