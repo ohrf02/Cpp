@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ohrf02/CLionProjects/C++/Array/ProtectedArray.h
+iostream
+-
+
+C:/Users/ohrf02/CLionProjects/C++/Array/main.cpp
+iostream
+-
+ProtectedArray.h
+C:/Users/ohrf02/CLionProjects/C++/Array/ProtectedArray.h
+
