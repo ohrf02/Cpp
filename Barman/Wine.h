@@ -9,11 +9,13 @@
 #include "Drink.h"
 #include <string.h>
 #include <string>
-class Wine : Drink{
+
+class Wine : public Drink{
 public:
     Wine(int year, const char* name){this->year = year; this->Name = name;}
     Wine(){};
-    const char* getName() const;
+
+    virtual const char* getName() const;
     virtual void prepare()const = 0;
 
 private:

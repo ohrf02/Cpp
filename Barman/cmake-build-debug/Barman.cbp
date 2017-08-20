@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Barman">
-				<Option output="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Barman.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug"/>
+				<Option output="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Barman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -40,15 +40,15 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Barman"/>
-					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Barman"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Barman/fast">
-				<Option output="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Barman.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug"/>
+				<Option output="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Barman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,67 +69,67 @@
 					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Barman/fast"/>
-					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 Barman/fast"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug"/>
+				<Option working_dir="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw/bin/mingw32-make.exe -f &quot;C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/Beer.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/Beer.cpp">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/Beer.h">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/Beer.h">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/Drink.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/Drink.cpp">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/Drink.h">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/Drink.h">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/RedWine.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/RedWine.cpp">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/RedWine.h">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/RedWine.h">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/WhiteWine.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/WhiteWine.cpp">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/WhiteWine.h">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/WhiteWine.h">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/Wine.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/Wine.cpp">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/Wine.h">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/Wine.h">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/main.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/main.cpp">
 			<Option target="Barman"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Barman/CMakeLists.txt">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Barman/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

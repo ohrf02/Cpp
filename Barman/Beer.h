@@ -11,7 +11,8 @@
 
 class Beer : public Drink {
 public:
-    Beer(const char* name){this->Name =  name;}
+    Beer(const char *Name) : Name(Name) {};
+
     const char* getName() const { return this->Name;}
     void prepare() const { std::cout << "Well, all you need to do is pour it into a glass and serve.";}
 

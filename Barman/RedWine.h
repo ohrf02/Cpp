@@ -8,10 +8,10 @@
 #include <iostream>
 #include "Wine.h"
 
-class RedWine : Wine{
+class RedWine : public Wine{
 public:
-    RedWine(int year, const char* name) : Wine(year, name){};
-    void prepare() const{std::cout << "Serve the wine in room temperature and pour into a wine glass.";}
+    RedWine(int year, const char *name) : Wine(year, name) {};
+    void prepare() const{std::cout << "Serve the wine in room temperature and pour into a wine glass." << std::endl;}
 
 };
 

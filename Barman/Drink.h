@@ -2,14 +2,14 @@
 // Created by ohrf02 on 8/20/2017.
 //
 
-#ifndef BARMAN_DRINK_H
-#define BARMAN_DRINK_H
+#ifndef barman_drink_h
+#define barman_drink_h
 
 
 class Drink {
 public:
     virtual void prepare() const = 0;
-    virtual const char* getName() const{return "Drink";}
+    virtual const char* getName() const{return "drink";}
 };
 
 

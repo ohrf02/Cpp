@@ -7,12 +7,13 @@
 
 
 #include <iostream>
-#include "wine.h"
+#include "Wine.h"
 
-class whitewine : wine{
+class WhiteWine : public Wine{
 public:
-    whitewine(int year, const char* name): wine(year, name){};
-    void prepare() const{std::cout << "serve cold and pour into a wine glass.";}
+    WhiteWine(int year, const char *name) : Wine(year, name) {};
+    void prepare() const{std::cout << "serve cold and pour into a wine glass." << std::endl;}
+
 
 };
 

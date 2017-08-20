@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ohrf02\CLionProjects\C++\Barman
+CMAKE_SOURCE_DIR = C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Barman.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Barman.dir/flags.make
 
 CMakeFiles/Barman.dir/main.cpp.obj: CMakeFiles/Barman.dir/flags.make
 CMakeFiles/Barman.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Barman.dir/main.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\main.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Barman\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Barman.dir/main.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\main.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\main.cpp
 
 CMakeFiles/Barman.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barman.dir/main.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Barman\main.cpp > CMakeFiles\Barman.dir\main.cpp.i
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\main.cpp > CMakeFiles\Barman.dir\main.cpp.i
 
 CMakeFiles/Barman.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barman.dir/main.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Barman\main.cpp -o CMakeFiles\Barman.dir\main.cpp.s
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\main.cpp -o CMakeFiles\Barman.dir\main.cpp.s
 
 CMakeFiles/Barman.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Barman.dir/main.cpp.obj.provides.build: CMakeFiles/Barman.dir/main.cp
 
 CMakeFiles/Barman.dir/Drink.cpp.obj: CMakeFiles/Barman.dir/flags.make
 CMakeFiles/Barman.dir/Drink.cpp.obj: ../Drink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Barman.dir/Drink.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\Drink.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Barman\Drink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Barman.dir/Drink.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\Drink.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Drink.cpp
 
 CMakeFiles/Barman.dir/Drink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barman.dir/Drink.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Barman\Drink.cpp > CMakeFiles\Barman.dir\Drink.cpp.i
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Drink.cpp > CMakeFiles\Barman.dir\Drink.cpp.i
 
 CMakeFiles/Barman.dir/Drink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barman.dir/Drink.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Barman\Drink.cpp -o CMakeFiles\Barman.dir\Drink.cpp.s
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Drink.cpp -o CMakeFiles\Barman.dir\Drink.cpp.s
 
 CMakeFiles/Barman.dir/Drink.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/Barman.dir/Drink.cpp.obj.provides.build: CMakeFiles/Barman.dir/Drink.
 
 CMakeFiles/Barman.dir/Beer.cpp.obj: CMakeFiles/Barman.dir/flags.make
 CMakeFiles/Barman.dir/Beer.cpp.obj: ../Beer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Barman.dir/Beer.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\Beer.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Barman\Beer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Barman.dir/Beer.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\Beer.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Beer.cpp
 
 CMakeFiles/Barman.dir/Beer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barman.dir/Beer.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Barman\Beer.cpp > CMakeFiles\Barman.dir\Beer.cpp.i
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Beer.cpp > CMakeFiles\Barman.dir\Beer.cpp.i
 
 CMakeFiles/Barman.dir/Beer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barman.dir/Beer.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Barman\Beer.cpp -o CMakeFiles\Barman.dir\Beer.cpp.s
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Beer.cpp -o CMakeFiles\Barman.dir\Beer.cpp.s
 
 CMakeFiles/Barman.dir/Beer.cpp.obj.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/Barman.dir/Beer.cpp.obj.provides.build: CMakeFiles/Barman.dir/Beer.cp
 
 CMakeFiles/Barman.dir/Wine.cpp.obj: CMakeFiles/Barman.dir/flags.make
 CMakeFiles/Barman.dir/Wine.cpp.obj: ../Wine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Barman.dir/Wine.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\Wine.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Barman\Wine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Barman.dir/Wine.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\Wine.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Wine.cpp
 
 CMakeFiles/Barman.dir/Wine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barman.dir/Wine.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Barman\Wine.cpp > CMakeFiles\Barman.dir\Wine.cpp.i
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Wine.cpp > CMakeFiles\Barman.dir\Wine.cpp.i
 
 CMakeFiles/Barman.dir/Wine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barman.dir/Wine.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Barman\Wine.cpp -o CMakeFiles\Barman.dir\Wine.cpp.s
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\Wine.cpp -o CMakeFiles\Barman.dir\Wine.cpp.s
 
 CMakeFiles/Barman.dir/Wine.cpp.obj.requires:
 
@@ -154,16 +154,16 @@ CMakeFiles/Barman.dir/Wine.cpp.obj.provides.build: CMakeFiles/Barman.dir/Wine.cp
 
 CMakeFiles/Barman.dir/RedWine.cpp.obj: CMakeFiles/Barman.dir/flags.make
 CMakeFiles/Barman.dir/RedWine.cpp.obj: ../RedWine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Barman.dir/RedWine.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\RedWine.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Barman\RedWine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Barman.dir/RedWine.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\RedWine.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\RedWine.cpp
 
 CMakeFiles/Barman.dir/RedWine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barman.dir/RedWine.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Barman\RedWine.cpp > CMakeFiles\Barman.dir\RedWine.cpp.i
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\RedWine.cpp > CMakeFiles\Barman.dir\RedWine.cpp.i
 
 CMakeFiles/Barman.dir/RedWine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barman.dir/RedWine.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Barman\RedWine.cpp -o CMakeFiles\Barman.dir\RedWine.cpp.s
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\RedWine.cpp -o CMakeFiles\Barman.dir\RedWine.cpp.s
 
 CMakeFiles/Barman.dir/RedWine.cpp.obj.requires:
 
@@ -178,16 +178,16 @@ CMakeFiles/Barman.dir/RedWine.cpp.obj.provides.build: CMakeFiles/Barman.dir/RedW
 
 CMakeFiles/Barman.dir/WhiteWine.cpp.obj: CMakeFiles/Barman.dir/flags.make
 CMakeFiles/Barman.dir/WhiteWine.cpp.obj: ../WhiteWine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Barman.dir/WhiteWine.cpp.obj"
-	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\WhiteWine.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Barman\WhiteWine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Barman.dir/WhiteWine.cpp.obj"
+	C:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Barman.dir\WhiteWine.cpp.obj -c C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\WhiteWine.cpp
 
 CMakeFiles/Barman.dir/WhiteWine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Barman.dir/WhiteWine.cpp.i"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Barman\WhiteWine.cpp > CMakeFiles\Barman.dir\WhiteWine.cpp.i
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\WhiteWine.cpp > CMakeFiles\Barman.dir\WhiteWine.cpp.i
 
 CMakeFiles/Barman.dir/WhiteWine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Barman.dir/WhiteWine.cpp.s"
-	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Barman\WhiteWine.cpp -o CMakeFiles\Barman.dir\WhiteWine.cpp.s
+	C:\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\WhiteWine.cpp -o CMakeFiles\Barman.dir\WhiteWine.cpp.s
 
 CMakeFiles/Barman.dir/WhiteWine.cpp.obj.requires:
 
@@ -222,7 +222,7 @@ Barman.exe: CMakeFiles/Barman.dir/build.make
 Barman.exe: CMakeFiles/Barman.dir/linklibs.rsp
 Barman.exe: CMakeFiles/Barman.dir/objects1.rsp
 Barman.exe: CMakeFiles/Barman.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Barman.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Barman.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Barman.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -244,6 +244,6 @@ CMakeFiles/Barman.dir/clean:
 .PHONY : CMakeFiles/Barman.dir/clean
 
 CMakeFiles/Barman.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ohrf02\CLionProjects\C++\Barman C:\Users\ohrf02\CLionProjects\C++\Barman C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug C:\Users\ohrf02\CLionProjects\C++\Barman\cmake-build-debug\CMakeFiles\Barman.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug C:\Users\ohrf02\CLionProjects\C++\Cpp\Barman\cmake-build-debug\CMakeFiles\Barman.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Barman.dir/depend
 
