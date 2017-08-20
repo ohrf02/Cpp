@@ -1,0 +1,25 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/ohrf02/CLionProjects/C++/Barman/Beer.cpp" "C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/CMakeFiles/Barman.dir/Beer.cpp.obj"
+  "C:/Users/ohrf02/CLionProjects/C++/Barman/Drink.cpp" "C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/CMakeFiles/Barman.dir/Drink.cpp.obj"
+  "C:/Users/ohrf02/CLionProjects/C++/Barman/RedWine.cpp" "C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/CMakeFiles/Barman.dir/RedWine.cpp.obj"
+  "C:/Users/ohrf02/CLionProjects/C++/Barman/WhiteWine.cpp" "C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/CMakeFiles/Barman.dir/WhiteWine.cpp.obj"
+  "C:/Users/ohrf02/CLionProjects/C++/Barman/Wine.cpp" "C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/CMakeFiles/Barman.dir/Wine.cpp.obj"
+  "C:/Users/ohrf02/CLionProjects/C++/Barman/main.cpp" "C:/Users/ohrf02/CLionProjects/C++/Barman/cmake-build-debug/CMakeFiles/Barman.dir/main.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
