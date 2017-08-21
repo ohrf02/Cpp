@@ -1,0 +1,3 @@
+C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir
+C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
