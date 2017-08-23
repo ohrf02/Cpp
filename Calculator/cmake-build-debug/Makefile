@@ -122,87 +122,6 @@ Calculator/fast:
 	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/build
 .PHONY : Calculator/fast
 
-Addition.obj: Addition.cpp.obj
-
-.PHONY : Addition.obj
-
-# target to build an object file
-Addition.cpp.obj:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Addition.cpp.obj
-.PHONY : Addition.cpp.obj
-
-Addition.i: Addition.cpp.i
-
-.PHONY : Addition.i
-
-# target to preprocess a source file
-Addition.cpp.i:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Addition.cpp.i
-.PHONY : Addition.cpp.i
-
-Addition.s: Addition.cpp.s
-
-.PHONY : Addition.s
-
-# target to generate assembly for a file
-Addition.cpp.s:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Addition.cpp.s
-.PHONY : Addition.cpp.s
-
-Subtraction.obj: Subtraction.cpp.obj
-
-.PHONY : Subtraction.obj
-
-# target to build an object file
-Subtraction.cpp.obj:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Subtraction.cpp.obj
-.PHONY : Subtraction.cpp.obj
-
-Subtraction.i: Subtraction.cpp.i
-
-.PHONY : Subtraction.i
-
-# target to preprocess a source file
-Subtraction.cpp.i:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Subtraction.cpp.i
-.PHONY : Subtraction.cpp.i
-
-Subtraction.s: Subtraction.cpp.s
-
-.PHONY : Subtraction.s
-
-# target to generate assembly for a file
-Subtraction.cpp.s:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/Subtraction.cpp.s
-.PHONY : Subtraction.cpp.s
-
-calculatorOperation.obj: calculatorOperation.cpp.obj
-
-.PHONY : calculatorOperation.obj
-
-# target to build an object file
-calculatorOperation.cpp.obj:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/calculatorOperation.cpp.obj
-.PHONY : calculatorOperation.cpp.obj
-
-calculatorOperation.i: calculatorOperation.cpp.i
-
-.PHONY : calculatorOperation.i
-
-# target to preprocess a source file
-calculatorOperation.cpp.i:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/calculatorOperation.cpp.i
-.PHONY : calculatorOperation.cpp.i
-
-calculatorOperation.s: calculatorOperation.cpp.s
-
-.PHONY : calculatorOperation.s
-
-# target to generate assembly for a file
-calculatorOperation.cpp.s:
-	$(MAKE) -f CMakeFiles\Calculator.dir\build.make CMakeFiles/Calculator.dir/calculatorOperation.cpp.s
-.PHONY : calculatorOperation.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -239,15 +158,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Calculator
 	@echo ... edit_cache
-	@echo ... Addition.obj
-	@echo ... Addition.i
-	@echo ... Addition.s
-	@echo ... Subtraction.obj
-	@echo ... Subtraction.i
-	@echo ... Subtraction.s
-	@echo ... calculatorOperation.obj
-	@echo ... calculatorOperation.i
-	@echo ... calculatorOperation.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

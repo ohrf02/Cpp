@@ -96,19 +96,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Addition.cpp">
-			<Option target="Calculator"/>
-		</Unit>
 		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Addition.h">
 			<Option target="Calculator"/>
 		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Subtraction.cpp">
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Division.h">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Multiplication.h">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Power.h">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Set.h">
+			<Option target="Calculator"/>
+		</Unit>
+		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Sqrt.h">
 			<Option target="Calculator"/>
 		</Unit>
 		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/Subtraction.h">
-			<Option target="Calculator"/>
-		</Unit>
-		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/calculatorOperation.cpp">
 			<Option target="Calculator"/>
 		</Unit>
 		<Unit filename="C:/Users/ohrf02/CLionProjects/C++/Cpp/Calculator/calculatorOperation.h">

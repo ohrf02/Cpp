@@ -12,18 +12,22 @@
 
 class Addition : public calculatorOperation {
 public:
-    Addition(){};
 
+    //Returns if the given op-code is supported.
     virtual bool supportsOperations(string op_string) const {
         return op_string == "add" || op_string == "+";
     }
 
+    //Returns the required number of parameters for the exact operation.
     virtual int requiredParameters() const {
         return 1;
     }
 
+    //Returns the current value of the calculator after the operation was done.
     virtual double calcResult(double currVal, vector<string> parameters) const {
-        return currVal + std::atoi((*parameters.begin()).c_str());
+        //If the parameter is not a number => throw an exception.
+        if(!(isNumber(parameters[0]))) throw "The parameter must be a number!";
+        return currVal + std::atoi(parameters[0].c_str());
     }
 
 };
