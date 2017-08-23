@@ -30,6 +30,7 @@ public:
 
         //If the parameter(the divider) is 0 => throw an exception.
         if(param == 0) throw "Can not divide by 0!";
+        
         return currVal / param;
     }
 
